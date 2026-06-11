@@ -1,15 +1,10 @@
-<!-- This is the source of truth for the README that appears at the top
-     of github.com/saad-mughal435. It lives in site/scripts/profile-readme/
-     and gets deployed into the special repo github.com/saad-mughal435/saad-mughal435
-     by scripts/setup-profile-readme.ps1. Edit here, run the script to push. -->
-
 <div align="center">
 
 # Hi, I'm Muhammad Saad 👋
 
 ### Automation & Software Developer · ERP / OEE · Backend & Web Apps
 
-🇦🇪 &nbsp;Currently **UAE-based** &nbsp;·&nbsp; 🌍 &nbsp;**Open to relocate worldwide**
+🇦🇪 &nbsp;Dubai, UAE
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-saadm.dev-7c9cff?style=for-the-badge&logoColor=white)](https://saadm.dev/)
 [![Email](https://img.shields.io/badge/Email-saad@saadm.dev-c4b5fd?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:saad@saadm.dev)
@@ -21,9 +16,9 @@
 
 ## 🛠 What I actually do
 
-I build software that replaces manual work — **ERP systems, dashboards, admin panels, backend tools, and web applications**. My focus is operations software: production planning, OEE reporting, QC workflows, batch tracking, inventory, PDF generation, and Sage Evolution integration.
+I build software that replaces manual work - **ERP systems, dashboards, admin panels, backend tools, and web applications**. My focus is operations software: production planning, OEE reporting, QC workflows, batch tracking, inventory, PDF generation, and Sage Evolution integration.
 
-My engineering background helps me run and support Krones beverage production lines and coordinate operators during shifts — the software I build sits **around** the production workflow (Krones machine automation is OEM-locked; I work on the operator-, QC-, stores-, and finance-side systems).
+My engineering background helps me run and support Krones beverage production lines and coordinate operators during shifts - the software I build sits **around** the production workflow (Krones machine automation is OEM-locked; I work on the operator-, QC-, stores-, and finance-side systems).
 
 **Currently:** Automation Engineer · ERP Developer · IT Administrator at **Kingsley Beverage FZCO**, Dubai 🇦🇪
 **Education:** B.Sc. Electrical Engineering · Computer Engineering major · COMSATS Islamabad
@@ -32,7 +27,12 @@ My engineering background helps me run and support Krones beverage production li
 
 ## 🚀 Featured live demos
 
-> Seven open in the browser - fabricated data, real workflows.
+> Eleven open in the browser - fabricated data, real workflows. Plus an
+> **AI chatbot on the homepage** ([saadm.dev](https://saadm.dev/)) - a
+> floating ✦ cyan bubble that answers recruiter questions grounded in
+> this portfolio's content (with one-click citations to the relevant
+> demo). One Cloudflare Worker + LLM API key powers **six AI
+> features**: Sanad / Watad / Lahza / Marsad / Nabta / Ask Saad.
 
 | Demo | What it is | Stack |
 |------|-----------|-------|
@@ -41,8 +41,26 @@ My engineering background helps me run and support Krones beverage production li
 | 🏠 **[Manzil Properties](https://saadm.dev/property/)** | Dubai real-estate marketplace. Map + list search, agent profiles, mortgage / valuation / yield calculators, 13-section admin SPA. | Leaflet · localStorage · Mock API |
 | 🏖️ **[Vacation Homes](https://saadm.dev/vacation/)** | UAE short-stay booking platform. Custom date-range picker, 6-step host onboarding with document upload, admin verification queue. | Vanilla JS · Custom calendar · Mock API |
 | ☕ **[Qahwa POS](https://saadm.dev/pos/)** | Café & quick-service POS. Touch cashier terminal, kitchen display system, modifier-driven menus, shift cash reconciliation with Z-reports, 14-section admin. | PIN auth · KDS polling · Web Audio · Mock API |
-| ✦ **[Sanad](https://saadm.dev/sanad/)** | AI customer-support copilot. Helpdesk inbox with Claude-powered AI sidebar (suggested reply, summary, sentiment, EN↔AR translate), RAG chat widget, 11-section admin with model selector + editable system prompt. | Claude API · CF Worker proxy · RAG · Streaming · Mock fallback |
-| 🛒 **[Pebble & Co.](https://saadm.dev/b2c/)** | DTC storefront with admin panel — products, cart, checkout, customer accounts. | HTML5 · Vanilla JS · Mock API |
+| ✦ **[Sanad](https://saadm.dev/sanad/)** | AI customer-support copilot. Helpdesk inbox with AI-powered AI sidebar (suggested reply, summary, sentiment, EN↔AR translate), RAG chat widget, 11-section admin with model selector + editable system prompt. | LLM API · CF Worker proxy · RAG · Streaming · Mock fallback |
+| 🏗️ **[Watad](https://saadm.dev/watad/)** | Smart-building / BMS operations console. Live SVG floor plan with ~50 HVAC / lighting / metering assets, simulated BACnet/Modbus telemetry (5s tick, ~200 points), severity-ranked alarm queue with Web Audio cues, predictive-maintenance work orders, energy dashboard with ASHRAE 90.1 + DEWA DSM panel, 3 BMS-tuned AI features. | Real-time telemetry sim · SVG floor plan · BACnet/Modbus · Web Audio · LLM API · Mock fallback |
+| 📱 **[Lahza](https://saadm.dev/lahza/)** | **Mobile-first AI journaling PWA**. Installable on iOS / Android / desktop via Add to Home Screen. Daily AI-suggested prompt, mood detection from your text, weekly RAG insights, AI Coach chat that cites your own entries. Desktop shows an iPhone frame; mobile is fullscreen; installed = standalone window, no browser chrome. | PWA · Service Worker · Manifest · LLM API · RAG · CF Worker proxy · Mock fallback |
+| 🚐 **[Marsad](https://saadm.dev/marsad/)** | Real-time **fleet / logistics dispatcher console** for a Dubai last-mile courier. Live Leaflet map with 16 vehicles ticking every 4 seconds across 6 zones, 96 in-flight orders, SLA-breach audio cue, 4 AI dispatcher features (explain delay / reroute / batch-assign / chat), driver-side view, 9-section admin SPA. | Leaflet · Real-time sim · Web Audio · LLM API · CF Worker proxy |
+| 🌱 **[Nabta](https://saadm.dev/nabta/)** | **UAE HR + payroll SaaS**. 32 employees with Emirates ID + visa fields. Leave management with line-manager + HR approval. **WPS-compliant payroll runs** via Emirates NBD. Recruitment kanban + Q2 performance reviews. AI policy assistant grounded in 6 HR policies + UAE Labour Law (Federal Decree-Law No. 33 of 2021) with [pol-xxx] citation chips. | Hash-routed SPA · UAE WPS · RAG (policies) · LLM API · Mock fallback |
+| 🛒 **[Pebble & Co.](https://saadm.dev/b2c/)** | DTC storefront with admin panel - products, cart, checkout, customer accounts. | HTML5 · Vanilla JS · Mock API |
+
+---
+
+## 📂 Selected code
+
+| Repo | What it is | CI |
+|------|-----------|----|
+| **[hft-orderbook](https://github.com/saad-mughal435/hft-orderbook)** | C++17 NASDAQ ITCH 5.0 order-book reconstructor: MoldUDP64 + BinaryFILE transports, lock-free SPSC pipeline, FIX 4.4 order entry, [live L2 viewer](https://saadm.dev/hft-book/viewer.html). | TSan · ASan/UBSan · libFuzzer · clang -Werror |
+| **[shopfloor-api](https://github.com/saad-mughal435/shopfloor-api)** | Spring Boot 3 / Java 21 MES backend: OEE engine, job-order state machine, FIFO inventory, Flyway + PostgreSQL, JWT roles, Swagger. | JUnit 5 · MockMvc · Testcontainers |
+| **[n8n-nodes-devtools](https://github.com/saad-mughal435/n8n-nodes-devtools)** | n8n community node on npm ([@saadmughal435/n8n-nodes-devtools](https://www.npmjs.com/package/@saadmughal435/n8n-nodes-devtools)): JWT, hashing, IDs, JSON/CSV, regex. | lint · typecheck · unit tests |
+| **[oee-core](https://github.com/saad-mughal435/oee-core)** · **[modbus-codec](https://github.com/saad-mughal435/modbus-codec)** · **[threadpool](https://github.com/saad-mughal435/threadpool)** · **[netlat](https://github.com/saad-mughal435/netlat)** | Small, focused C++17 libraries: OEE/downtime analytics, Modbus RTU/TCP framing, a header-only thread pool, a TCP latency probe. | Catch2 on every push |
+| **[playwright-e2e](https://github.com/saad-mughal435/playwright-e2e)** | Cross-browser E2E + API + a11y suite for saadm.dev, TypeScript. | Chromium · Firefox · WebKit |
+
+Engineering write-ups on how these are built: **[saadm.dev/notes](https://saadm.dev/notes/)**
 
 ---
 
@@ -79,7 +97,7 @@ My engineering background helps me run and support Krones beverage production li
 ![PLC](https://img.shields.io/badge/PLC_Concepts-c4b5fd?style=flat&logoColor=white)
 
 **Working with** &nbsp;
-![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat&logoColor=white)
+![AI](https://img.shields.io/badge/LLM_API-5b6ee1?style=flat&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-008080?style=flat&logoColor=white)
@@ -89,9 +107,9 @@ My engineering background helps me run and support Krones beverage production li
 
 ## 🎯 Currently open to
 
-> **Software · Automation · ERP / MES · Backend · Web Development · Technical Operations**
+> **Backend · ERP / MES · Automation · Software Engineering**
 
-Currently in the UAE. Happy to relocate worldwide. Particularly drawn to roles where software meets operations — manufacturing systems, business platforms, internal tools, dashboards, and ERP/MES products.
+Based in Dubai, open to relocate. Particularly drawn to roles where software meets operations - manufacturing systems, business platforms, internal tools, and ERP/MES products.
 
 📫 &nbsp; Best way to reach me: **[saad@saadm.dev](mailto:saad@saadm.dev)**
 🌐 &nbsp; Full portfolio: **[saadm.dev](https://saadm.dev/)**
