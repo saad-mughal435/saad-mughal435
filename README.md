@@ -29,19 +29,19 @@ My engineering background helps me run and support Krones beverage production li
 
 > Eleven open in the browser - fabricated data, real workflows. Plus an
 > **AI chatbot on the homepage** ([saadm.dev](https://saadm.dev/)) - a
-> floating ✦ cyan bubble that answers recruiter questions grounded in
+> floating ✦ cyan bubble that answers questions grounded in
 > this portfolio's content (with one-click citations to the relevant
 > demo). One Cloudflare Worker + LLM API key powers **six AI
 > features**: Sanad / Watad / Lahza / Marsad / Nabta / Ask Saad.
 
 | Demo | What it is | Stack |
 |------|-----------|-------|
-| 🏭 **[Kingsley MES/ERP walkthrough](https://saadm.dev/demo.html)** | The real internal operations platform, sanitised. 20+ modules, 6 PDF templates, OEE, QC, Sage integration. Sole developer, end-to-end. | Python · FastAPI · MongoDB · SQL Server |
+| 🏭 **[Kingsley MES/ERP walkthrough](https://saadm.dev/demo.html)** | Disconnected demo of the internal operations platform - all data fabricated, published with Kingsley's permission. 20+ modules, 6 PDF templates, OEE, QC, Sage integration. Sole developer, end-to-end. | Python · FastAPI · MongoDB · SQL Server |
 | 🏢 **[Anvil Supply Co.](https://saadm.dev/b2b/)** | B2B wholesale portal with tier pricing, MOQ, quote + approval workflows, multi-user roles. | Role-based UI · Approval queue · Mock API |
 | 🏠 **[Manzil Properties](https://saadm.dev/property/)** | Dubai real-estate marketplace. Map + list search, agent profiles, mortgage / valuation / yield calculators, 13-section admin SPA. | Leaflet · localStorage · Mock API |
 | 🏖️ **[Vacation Homes](https://saadm.dev/vacation/)** | UAE short-stay booking platform. Custom date-range picker, 6-step host onboarding with document upload, admin verification queue. | Vanilla JS · Custom calendar · Mock API |
 | ☕ **[Qahwa POS](https://saadm.dev/pos/)** | Café & quick-service POS. Touch cashier terminal, kitchen display system, modifier-driven menus, shift cash reconciliation with Z-reports, 14-section admin. | PIN auth · KDS polling · Web Audio · Mock API |
-| ✦ **[Sanad](https://saadm.dev/sanad/)** | AI customer-support copilot. Helpdesk inbox with AI-powered AI sidebar (suggested reply, summary, sentiment, EN↔AR translate), RAG chat widget, 11-section admin with model selector + editable system prompt. | LLM API · CF Worker proxy · RAG · Streaming · Mock fallback |
+| ✦ **[Sanad](https://saadm.dev/sanad/)** | AI customer-support copilot. Helpdesk inbox with an AI sidebar (suggested reply, summary, sentiment, EN↔AR translate), RAG chat widget, 11-section admin with model selector + editable system prompt. | LLM API · CF Worker proxy · RAG · Streaming · Mock fallback |
 | 🏗️ **[Watad](https://saadm.dev/watad/)** | Smart-building / BMS operations console. Live SVG floor plan with ~50 HVAC / lighting / metering assets, simulated BACnet/Modbus telemetry (5s tick, ~200 points), severity-ranked alarm queue with Web Audio cues, predictive-maintenance work orders, energy dashboard with ASHRAE 90.1 + DEWA DSM panel, 3 BMS-tuned AI features. | Real-time telemetry sim · SVG floor plan · BACnet/Modbus · Web Audio · LLM API · Mock fallback |
 | 📱 **[Lahza](https://saadm.dev/lahza/)** | **Mobile-first AI journaling PWA**. Installable on iOS / Android / desktop via Add to Home Screen. Daily AI-suggested prompt, mood detection from your text, weekly RAG insights, AI Coach chat that cites your own entries. Desktop shows an iPhone frame; mobile is fullscreen; installed = standalone window, no browser chrome. | PWA · Service Worker · Manifest · LLM API · RAG · CF Worker proxy · Mock fallback |
 | 🚐 **[Marsad](https://saadm.dev/marsad/)** | Real-time **fleet / logistics dispatcher console** for a Dubai last-mile courier. Live Leaflet map with 16 vehicles ticking every 4 seconds across 6 zones, 96 in-flight orders, SLA-breach audio cue, 4 AI dispatcher features (explain delay / reroute / batch-assign / chat), driver-side view, 9-section admin SPA. | Leaflet · Real-time sim · Web Audio · LLM API · CF Worker proxy |
@@ -54,7 +54,7 @@ My engineering background helps me run and support Krones beverage production li
 
 | Repo | What it is | CI |
 |------|-----------|----|
-| **[hft-orderbook](https://github.com/saad-mughal435/hft-orderbook)** | C++17 NASDAQ ITCH 5.0 order-book reconstructor: MoldUDP64 + BinaryFILE transports, lock-free SPSC pipeline, FIX 4.4 order entry, [live L2 viewer](https://saadm.dev/hft-book/viewer.html). | TSan · ASan/UBSan · libFuzzer · clang -Werror |
+| **[hft-orderbook](https://github.com/saad-mughal435/hft-orderbook)** | C++17 NASDAQ ITCH 5.0 order-book reconstructor: MoldUDP64 + BinaryFILE transports, lock-free SPSC pipeline, FIX 4.4 order entry, [browser L2 viewer](https://saadm.dev/hft-book/viewer.html) (synthetic-session replay; live via ?ws=). | TSan · ASan/UBSan · libFuzzer · clang -Werror |
 | **[shopfloor-api](https://github.com/saad-mughal435/shopfloor-api)** | Spring Boot 3 / Java 21 MES backend: OEE engine, job-order state machine, FIFO inventory, Flyway + PostgreSQL, JWT roles, Swagger. | JUnit 5 · MockMvc · Testcontainers |
 | **[n8n-nodes-devtools](https://github.com/saad-mughal435/n8n-nodes-devtools)** | n8n community node on npm ([@saadmughal435/n8n-nodes-devtools](https://www.npmjs.com/package/@saadmughal435/n8n-nodes-devtools)): JWT, hashing, IDs, JSON/CSV, regex. | lint · typecheck · unit tests |
 | **[oee-core](https://github.com/saad-mughal435/oee-core)** · **[modbus-codec](https://github.com/saad-mughal435/modbus-codec)** · **[threadpool](https://github.com/saad-mughal435/threadpool)** · **[netlat](https://github.com/saad-mughal435/netlat)** | Small, focused C++17 libraries: OEE/downtime analytics, Modbus RTU/TCP framing, a header-only thread pool, a TCP latency probe. | Catch2 on every push |
