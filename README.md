@@ -20,7 +20,7 @@ I build software that replaces manual work - **ERP systems, dashboards, admin pa
 
 My engineering background helps me run and support Krones beverage production lines and coordinate operators during shifts - the software I build sits **around** the production workflow (Krones machine automation is OEM-locked; I work on the operator-, QC-, stores-, and finance-side systems).
 
-**Currently:** Automation Engineer · ERP Developer · IT Administrator at **Kingsley Beverage FZCO**, Dubai 🇦🇪
+**Currently:** Automation Engineer · ERP Developer · IT Administrator at **Kingsley Beverage FZCO**, Dubai 🇦🇪 (since Jul 2025; the MES/ERP platform I built runs the plant's daily reporting in production)
 **Education:** B.Sc. Electrical Engineering · Computer Engineering major · COMSATS Islamabad
 
 ---
